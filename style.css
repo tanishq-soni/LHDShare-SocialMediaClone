@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+    font-family: 'Cabin', sans-serif;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+    height: 40px;
+    padding-bottom: 8px;
+    margin: 0 50px;
+}
+.head h2 img{
+    padding-top: 8px;
+}
+.icons img{
+    height: 25px;
+    width: 25px;
+}
+.icons a{
+    margin-right: 20px;
+}
+.icons a:nth-last-of-type(1){
+    margin-right: 0;
+}
+#search{
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border:0.8px solid rgba(0, 0, 0, 0.295);
+}
+.profile{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+}
+.pp img{
+    padding: 5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    height: 200px;
+}
+.profile-bio{
+    height: 200px;
+    margin-left: 50px;
+}
+.stats{
+    display: flex;
+}
+.stats h3{
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.stats h3:nth-last-of-type(1){
+    margin-right: 0;
+}
+.posts img{
+    height: 250px;
+    width: 250px;
+    border: 0.8px solid rgba(0, 0, 0, 0.295);
+    margin: 20px;
+}
+.posts{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.profile-name button{
+    background-color: white;
+    outline: none;
+    border: 0.8px solid rgba(0, 0, 0, 0.295);
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
